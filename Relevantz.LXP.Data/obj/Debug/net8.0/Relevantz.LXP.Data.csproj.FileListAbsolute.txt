@@ -1,0 +1,17 @@
+D:\Learning\LayeredArchitecture\Relevantz.LXP.Data\bin\Debug\net8.0\Relevantz.LXP.Data.deps.json
+D:\Learning\LayeredArchitecture\Relevantz.LXP.Data\bin\Debug\net8.0\Relevantz.LXP.Data.dll
+D:\Learning\LayeredArchitecture\Relevantz.LXP.Data\bin\Debug\net8.0\Relevantz.LXP.Data.pdb
+D:\Learning\LayeredArchitecture\Relevantz.LXP.Data\bin\Debug\net8.0\Relevantz.LXP.Common.dll
+D:\Learning\LayeredArchitecture\Relevantz.LXP.Data\bin\Debug\net8.0\Relevantz.LXP.Common.pdb
+D:\Learning\LayeredArchitecture\Relevantz.LXP.Data\obj\Debug\net8.0\Relevantz.LXP.Data.csproj.AssemblyReference.cache
+D:\Learning\LayeredArchitecture\Relevantz.LXP.Data\obj\Debug\net8.0\Relevantz.LXP.Data.GeneratedMSBuildEditorConfig.editorconfig
+D:\Learning\LayeredArchitecture\Relevantz.LXP.Data\obj\Debug\net8.0\Relevantz.LXP.Data.AssemblyInfoInputs.cache
+D:\Learning\LayeredArchitecture\Relevantz.LXP.Data\obj\Debug\net8.0\Relevantz.LXP.Data.AssemblyInfo.cs
+D:\Learning\LayeredArchitecture\Relevantz.LXP.Data\obj\Debug\net8.0\Relevantz.LXP.Data.csproj.CoreCompileInputs.cache
+D:\Learning\LayeredArchitecture\Relevantz.LXP.Data\obj\Debug\net8.0\Relevant.19827782.Up2Date
+D:\Learning\LayeredArchitecture\Relevantz.LXP.Data\obj\Debug\net8.0\Relevantz.LXP.Data.dll
+D:\Learning\LayeredArchitecture\Relevantz.LXP.Data\obj\Debug\net8.0\refint\Relevantz.LXP.Data.dll
+D:\Learning\LayeredArchitecture\Relevantz.LXP.Data\obj\Debug\net8.0\Relevantz.LXP.Data.pdb
+D:\Learning\LayeredArchitecture\Relevantz.LXP.Data\obj\Debug\net8.0\ref\Relevantz.LXP.Data.dll
+D:\Learning\LayeredArchitecture\Relevantz.LXP.Data\bin\Debug\net8.0\Relevantz.LXP.Data.runtimeconfig.json
+D:\Learning\LayeredArchitecture\Relevantz.LXP.Data\obj\Debug\net8.0\Relevantz.LXP.Data.genruntimeconfig.cache

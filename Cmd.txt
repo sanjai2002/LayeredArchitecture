@@ -1,0 +1,112 @@
+dotnet new sln --name Relevantz.LXP
+dotnet new webapi --use-controllers -o Relevantz.LXP.Api
+dotnet new classlib -o Relevantz.LXP.Core
+dotnet new classlib -o Relevantz.LXP.Data
+dotnet new classlib -o Relevantz.LXP.Common
+dotnet new nunit -o Relevantz.LXP.Api.Tests
+dotnet new nunit -o Relevantz.LXP.Core.Tests
+dotnet new nunit -o Relevantz.LXP.Common.Tests
+dotnet new nunit -o Relevantz.LXP.Data.Tests
+
+
+Cd Relevantz.LXP.Core
+mkdir IService
+mkdir Service
+
+
+
+cd Relevantz.LXP.data
+mkdir IRepository
+mkdir Repository
+
+
+cd Relevantz.LXP.Common
+
+mkdir Enums
+mkdir Validators
+mkdir ViewModels
+
+
+referencing  Relevantz.LXP.Api  to Relevantz.LXP.Api.Tests 
+
+Cd Relevantz.LXP.Api.Tests 
+
+             dotnet add reference ../Relevantz.LXP.Api/Relevantz.LXP.Api.csproj
+
+referencing Relevantz.LXP.Data to  Relevantz.LXP.Data.Tests
+
+
+Cd Relevantz.LXP.Data.Tests 
+
+             dotnet add reference ../Relevantz.LXP.Data/Relevantz.LXP.Data.csproj
+             
+referencing Relevantz.LXP.Core  to Relevantz.LXP.Core.Tests 
+
+
+Cd Relevantz.LXP.Core.Tests 
+
+             dotnet add reference ../Relevantz.LXP.Core/Relevantz.LXP.Core.csproj
+
+referencing  Relevantz.LXP.Common to Relevantz.LXP.Common.Tests 
+
+Cd Relevantz.LXP.Common.Tests 
+ 
+            dotnet add reference ../Relevantz.LXP.Common/Relevantz.LXP.Common.csproj
+
+
+
+
+referencing Relevantz.LXP.Core to Relevantz.LXP.Api
+
+cd Relevantz.LXP.Api 
+
+           dotnet add reference ../Relevantz.LXP.Core/Relevantz.LXP.Core.csproj
+
+referencing Relevantz.LXP.Data to Relevantz.LXP.Core
+
+cd Relevantz.LXP.Core
+
+            dotnet add reference ../Relevantz.LXP.Data/Relevantz.LXP.Data.csproj
+        
+referencing Relevantz.LXP.Common to Relevantz.LXP.Data
+
+cd Relevantz.LXP.Data
+
+            dotnet add reference ../Relevantz.LXP.Common/Relevantz.LXP.Common.csproj
+
+
+Adding everything to Solution:
+
+pwd 
+D:\Learning\LayeredArchitecture
+
+dotnet sln Relevantz.LXP.sln add D:\Learning\LayeredArchitecture/Relevantz.LXP.Api/Relevantz.LXP.Api.csproj
+dotnet sln Relevantz.LXP.sln add D:\Learning\LayeredArchitecture/Relevantz.LXP.Common/Relevantz.LXP.Common.csproj
+dotnet sln Relevantz.LXP.sln add D:\Learning\LayeredArchitecture/Relevantz.LXP.Core/Relevantz.LXP.Core.csproj
+dotnet sln Relevantz.LXP.sln add D:\Learning\LayeredArchitecture/Relevantz.LXP.Data/Relevantz.LXP.Data.csproj
+dotnet sln Relevantz.LXP.sln add D:\Learning\LayeredArchitecture/Relevantz.LXP.Api.Tests/Relevantz.LXP.Api.Tests.csproj
+dotnet sln Relevantz.LXP.sln add D:\Learning\LayeredArchitecture/Relevantz.LXP.Common.Tests/Relevantz.LXP.Common.Tests.csproj
+dotnet sln Relevantz.LXP.sln add D:\Learning\LayeredArchitecture/Relevantz.LXP.Core.Tests/Relevantz.LXP.Core.Tests.csproj
+dotnet sln Relevantz.LXP.sln add D:\Learning\LayeredArchitecture/Relevantz.LXP.Data.Tests/Relevantz.LXP.Data.Tests.csproj
+
+
+dotnet ef dbcontext scaffold "Server=localhost;Database=Relevantz.lxp;Uid=root;Pwd=Password@12345;" Pomelo.EntityFrameworkCore.MySql -o ..\Relevantz.LXP.Common\Entities -c LXPDbContext --force --context-dir ..\Relevantz.LXP.Data\DBContexts
+
+Package:
+
+cd Relevantz.LXP.Data
+dotnet add package EntityFramework
+dotnet add package Microsoft.EntityFrameworkCore
+dotnet add package Microsoft.EntityFrameworkCore.Relational
+dotnet add package Microsoft.EntityFrameworkCore.Tools
+dotnet add package MySql.EntityFrameworkCore
+dotnet add package Pomelo.EntityFrameworkCore.MySql
+
+cd Relevantz.LXP.Api
+dotnet add package Microsoft.EntityFrameworkCore.Design
+
+cd Relevantz.LXP.Common
+dotnet add package Microsoft.AspNetCore.Http
+
+
+

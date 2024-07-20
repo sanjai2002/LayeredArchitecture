@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\Relevantz.LXP.Api.props" />
+</Project>

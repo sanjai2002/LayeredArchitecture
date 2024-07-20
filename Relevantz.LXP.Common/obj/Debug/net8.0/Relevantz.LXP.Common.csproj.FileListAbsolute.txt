@@ -1,0 +1,12 @@
+D:\Learning\LayeredArchitecture\Relevantz.LXP.Common\bin\Debug\net8.0\Relevantz.LXP.Common.deps.json
+D:\Learning\LayeredArchitecture\Relevantz.LXP.Common\bin\Debug\net8.0\Relevantz.LXP.Common.dll
+D:\Learning\LayeredArchitecture\Relevantz.LXP.Common\bin\Debug\net8.0\Relevantz.LXP.Common.pdb
+D:\Learning\LayeredArchitecture\Relevantz.LXP.Common\obj\Debug\net8.0\Relevantz.LXP.Common.GeneratedMSBuildEditorConfig.editorconfig
+D:\Learning\LayeredArchitecture\Relevantz.LXP.Common\obj\Debug\net8.0\Relevantz.LXP.Common.AssemblyInfoInputs.cache
+D:\Learning\LayeredArchitecture\Relevantz.LXP.Common\obj\Debug\net8.0\Relevantz.LXP.Common.AssemblyInfo.cs
+D:\Learning\LayeredArchitecture\Relevantz.LXP.Common\obj\Debug\net8.0\Relevantz.LXP.Common.csproj.CoreCompileInputs.cache
+D:\Learning\LayeredArchitecture\Relevantz.LXP.Common\obj\Debug\net8.0\Relevantz.LXP.Common.dll
+D:\Learning\LayeredArchitecture\Relevantz.LXP.Common\obj\Debug\net8.0\refint\Relevantz.LXP.Common.dll
+D:\Learning\LayeredArchitecture\Relevantz.LXP.Common\obj\Debug\net8.0\Relevantz.LXP.Common.pdb
+D:\Learning\LayeredArchitecture\Relevantz.LXP.Common\obj\Debug\net8.0\ref\Relevantz.LXP.Common.dll
+D:\Learning\LayeredArchitecture\Relevantz.LXP.Common\obj\Debug\net8.0\Relevantz.LXP.Common.csproj.AssemblyReference.cache
