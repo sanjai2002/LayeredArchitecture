@@ -90,7 +90,7 @@ dotnet sln Relevantz.LXP.sln add D:\Learning\LayeredArchitecture/Relevantz.LXP.C
 dotnet sln Relevantz.LXP.sln add D:\Learning\LayeredArchitecture/Relevantz.LXP.Data.Tests/Relevantz.LXP.Data.Tests.csproj
 
 
-dotnet ef dbcontext scaffold "Server=localhost;Database=Relevantz.lxp;Uid=root;Pwd=Password@12345;" Pomelo.EntityFrameworkCore.MySql -o ..\Relevantz.LXP.Common\Entities -c LXPDbContext --force --context-dir ..\Relevantz.LXP.Data\DBContexts
+dotnet ef dbcontext scaffold "Server=localhost;Database=xxx.lxp;Uid=root;Pwd=xxx;" Pomelo.EntityFrameworkCore.MySql -o ..\Relevantz.LXP.Common\Entities -c LXPDbContext --force --context-dir ..\Relevantz.LXP.Data\DBContexts
 
 Package:
 
